@@ -12,11 +12,6 @@ on 3 different approaches to condition Tacotron2 on only the speaker’s identit
 train on the [VCTK dataset](https://datashare.ed.ac.uk/handle/10283/2950). This was done successfully and it even showed
 that the approach can be used on unseen speakers.
 
-It builds upon the following repositories:
-1. https://github.com/NVIDIA/tacotron2
-2. https://github.com/NVIDIA/waveglow 
-3. https://github.com/resemble-ai/Resemblyzer
-
 # Architecture
 ![](img/arch.png)
 
@@ -27,3 +22,8 @@ It builds upon the following repositories:
 
 # [Results](report.pdf): Check out [Tensorboard.dev](https://tensorboard.dev/experiment/vcappjUrQdin2D8aiaPVaA/)
 ![](img/alignment.png)
+
+It builds upon the following repositories:
+1. https://github.com/NVIDIA/tacotron2
+2. https://github.com/NVIDIA/waveglow 
+3. https://github.com/resemble-ai/Resemblyzer
