@@ -23,11 +23,6 @@ that the approach can be used on unseen speakers.
 # [Results](report.pdf): Check out [Tensorboard.dev](https://tensorboard.dev/experiment/vcappjUrQdin2D8aiaPVaA/)
 ![](img/alignment.png)
 
-It builds upon the following repositories:
-1. https://github.com/NVIDIA/tacotron2
-2. https://github.com/NVIDIA/waveglow 
-3. https://github.com/resemble-ai/Resemblyzer
-
 
 # Demo: Inference on unseen speakers
 1. We choose 2 speakers from the bag of unseen speakers: ``p340`` (female), ``p258``(male). 
@@ -60,4 +55,8 @@ We compare different ways of embedding the style of the speaker:
   
   https://user-images.githubusercontent.com/58919465/190683836-9359d2ec-73d5-42ed-ab15-252e98c423eb.mp4
 
-
+# Credits
+It builds upon the following repositories:
+1. https://github.com/NVIDIA/tacotron2
+2. https://github.com/NVIDIA/waveglow 
+3. https://github.com/resemble-ai/Resemblyzer
